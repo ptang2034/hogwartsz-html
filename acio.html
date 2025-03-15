@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+<link rel="stylesheet"	type="text/css"	href="style.css">
+</head>
+
+<body>
+	<div id='topbar'> 
+		<p>Hi , I am Phoebe! Welcome to my website!</p>
+		<img id ='steve' src='expillimentis.jpg'/>
+		<img id ='steve' src='firebolt.jpg'/>
+	</div>
+ 
+	<div id = 'mainsection' >
+		<p>Hello, I'm Phoebe!</p>
+		<p>I like technology a lot because it is intresting.</p>
+		<p>I am really inspired by my dad who is a Youtuber online.</p>
+		<button id= 'mainbutton'type='button'onclick = sayHello() >say Hi!</button>
+	</div>
+</body>
+<script>
+	function sayHello(){ 
+		var name = prompt ("Hi, what's your name?");
+		if ( name !== null){
+			window.alert("it's nice to meet you "+name+"! thanks for checking my website!");
+		}
+	}
+</script>
+</html> 

@@ -1,0 +1,27 @@
+p{
+	color:royalblue;
+
+
+}
+body{
+	background-color:#eb78db;
+}
+#topbar{
+	min-height:300px;
+	width:100%;
+	background-color:white;
+}
+#mainbutton{
+	margin-left: 5%;
+	margin-bottom: 2%;
+	background:;color: #2605fc;
+	color-white;
+	padding: 15px 20px;
+	display:inline-block;
+	font-size: 24px;
+}
+#mainsection{
+	font-size: 38px;}
+#topbar{
+	font-size: 20px;}
+	
